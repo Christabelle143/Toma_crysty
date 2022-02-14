@@ -99,4 +99,25 @@ nav ul li a:hover{
             font-size: 50px;
             color: maroon;
         }
-
+		footer {
+            background-color: maroon;
+			 padding-top: 30px;
+			 color: white;
+			 text-align: center;
+		}
+		footer h3{
+			font-size: 40px;
+			margin-bottom: 20px;
+		}
+		footer p a{
+			font-size: 20px;
+			color: grey;
+			text-decoration:none ;
+			display:inline-block;
+			margin-right: 10px;
+		}
+@media only screen and (min-width:500px){
+	h1{
+		font-size: 100px;
+	}
+}
