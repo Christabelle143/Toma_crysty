@@ -44,9 +44,59 @@ nav ul li a:hover{
 
 #welcome-section h1{
 	height: 100%;
-	line-height: 100%;
+	margin-top: 50%;
+	transform: translateY(-70%);
 	font-size: 50px;
 	text-align: center;
 	font-weight: 500;
 	color: white;
 }
+#projects{
+                margin: 30px auto;
+                padding: 1px;
+            }
+            #projects h3{
+                text-align: center;
+                font-size: 30px;
+                text-decoration: underline;
+            }
+
+            .grid-div{
+                display: grid;
+                grid-template-columns: repeat(3, minmax(300px, 1fr));
+                grid-column-gap: 30px;
+                margin: auto;
+                width: fit-content;
+            }
+            .project-tile{
+                width: 100%;
+                margin: 20px auto;
+            }
+            .project-tile div{
+                height: auto;
+                min-height: 200px;
+                width: 100%;
+                background: #f0f0f0;
+            }
+            img{
+                display: block;
+                width: 100%;
+                height: auto;
+                margin: 0 auto;
+            }
+            .project-tile a{
+                display: block;
+                height: 40px;
+                width: 100%;
+                background: gray;
+                color: #fff;
+                line-height: 40px;
+            }
+#github a{
+            display: block;
+            text-align: center;
+            margin: 30px auto;
+            font-size: 50px;
+            color: maroon;
+        }
+
